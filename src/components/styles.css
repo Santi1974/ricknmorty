@@ -303,9 +303,6 @@ a{
     .episodes{
         margin-top: 30px;
     }
-    .episodes-title{
-        margin-top: 20px;
-    }
 }
 @media (max-width: 576px){
     .main-navbar .title h1{

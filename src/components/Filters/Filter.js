@@ -20,7 +20,7 @@ function Filter({setGender,setSpecies, setStatus, setPageNumber}) {
     <Col className='filter-container' md={3}>
       <h3 className='fw-bold'>Filters</h3>
       <h5 className="filter-clear" onClick={clear}>Clear all filters</h5>
-      <Accordion defaultActiveKey="0">
+      <Accordion defaultActiveKey="">
         <Status 
           setStatus={setStatus}
           setPageNumber={setPageNumber}
