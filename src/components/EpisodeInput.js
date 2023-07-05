@@ -6,6 +6,7 @@ function EpisodeInput({total, setId, aux}) {
     <>
     <Form.Select
     onChange={e=>setId(e.target.value)}
+    className='episode-form'
     >
       <option selected value="1">Episode - 1</option>
 

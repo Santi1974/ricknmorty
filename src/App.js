@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Fade } from "react-awesome-reveal";
+import { Helmet } from 'react-helmet';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap';
@@ -18,12 +19,20 @@ import Navigation from './components/Navigation';
 import Episodes from './components/Episodes';
 import CardSelect from './components/CardSelect';
 
+import icon from "./assets/icon.png"
+
 import './App.css';
 
 import "../src/components/styles.css"
 
 function App(){
   return(
+    <>
+    <Helmet>
+      <title>Mi Título de Página</title>
+      <link rel='icon' href={icon} />
+    </Helmet>
+
     <BrowserRouter>
       <div className="App">
         <Fade  direction='down' triggerOnce={true}>
@@ -39,6 +48,7 @@ function App(){
         <Route path="/episodes/:id" element={<CardSelect />} />
       </Routes>
     </BrowserRouter>
+    </>
   );
 }
 

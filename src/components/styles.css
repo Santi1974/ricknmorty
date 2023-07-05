@@ -275,6 +275,7 @@ a{
     }
     .main-card-text{
         margin-top: 15px;
+        margin-left: 20px;
     }
 }
 @media (max-width: 992px){
@@ -293,6 +294,9 @@ a{
         flex-direction: column-reverse;
     }
     .filter-container{
+        margin-bottom: 30px;
+    }
+    .episode-form{
         margin-bottom: 30px;
     }
 }

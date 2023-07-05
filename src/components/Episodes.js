@@ -39,7 +39,7 @@ function Episodes() {
         <h2>Episode: <span>{name===""? "Unknown" : name}</span></h2>
         <h4>Air Date: <span>{air_date===""? "Unknown" : air_date}</span></h4>
       </Row>
-      <Row>
+      <Row className='main-row'>
         <Col md={9}>
           <Row>
             <Cards page="/episodes/" results={results} />
