@@ -29,7 +29,7 @@ function App(){
   return(
     <>
     <Helmet>
-      <title>Mi Título de Página</title>
+      <title>Rick And Morty Wiki</title>
       <link rel='icon' href={icon} />
     </Helmet>
 
