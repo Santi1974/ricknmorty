@@ -19,7 +19,7 @@ import Navigation from './components/Navigation';
 import Episodes from './components/Episodes';
 import CardSelect from './components/CardSelect';
 
-import icon from "./assets/icon.png"
+import icon from "./assets/icon.webp"
 
 import './App.css';
 

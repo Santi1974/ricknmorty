@@ -41,11 +41,9 @@ function Episodes() {
       </Row>
       <Row className='main-row'>
         <Col md={9}>
-          <Row>
             <Cards page="/episodes/" results={results} />
-          </Row>
         </Col> 
-        <Col md={3}>
+        <Col className='episodes' md={3}>
           <h3 className='fw-bold'>Select episode</h3>
           <EpisodeInput total={50} setId={setId}/>
         </Col>
